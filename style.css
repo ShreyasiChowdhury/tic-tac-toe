@@ -1,0 +1,133 @@
+html {
+    padding: 0;
+    margin: 0;
+}
+
+body {
+    font-family: 'Jost', sans-serif;
+    font-family: 'Poppins', sans-serif;
+    font-family: 'Raleway', sans-serif;
+    font-family: 'Roboto', sans-serif;
+    font-family: 'Space Grotesk', sans-serif;
+    background-image: linear-gradient(rgba(255, 255, 255, 0.5), rgba(255, 255, 255, 0.5)), url('img/bg.jpg');
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-size: 100% 100%;
+}
+
+#navbar {
+    margin: 20px auto;
+    width: 400px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+#logo {
+    padding-right: 20px;
+    height: 50px;
+    width: 50px;
+}
+
+#name {
+    font-size: 2vw;
+    color: rgb(115, 37, 131);
+    text-shadow: 3px 4px rgb(218, 229, 246);
+    background-color: rgb(224, 203, 203);
+}
+
+#basic-info {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 1.5vw;
+}
+
+.container {
+    display: grid;
+    grid-template-rows: repeat(3, 10vw);
+    grid-template-columns: repeat(3, 10vw);
+    margin: 20px;
+    justify-content: center;
+}
+
+.box {
+    border: 2px solid black;
+    font-size: 5vw;
+    cursor: pointer;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.box:hover {
+    background-color: rgb(233, 215, 229);
+}
+
+.br-0 {
+    border-right: 0;
+}
+
+.bl-0 {
+    border-left: 0;
+}
+
+.bt-0 {
+    border-top: 0;
+}
+
+.bb-0 {
+    border-bottom: 0;
+}
+
+.game-info {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 1.5vw;
+}
+
+.info {
+    padding-right: 20px;
+}
+
+#reset {
+    font-family: 'Jost', sans-serif;
+    font-family: 'Poppins', sans-serif;
+    font-family: 'Raleway', sans-serif;
+    font-family: 'Roboto', sans-serif;
+    font-family: 'Space Grotesk', sans-serif;
+    padding: 5px 15px;
+    font-size: 1.5vw;
+    font-weight: bolder;
+    border-radius: 20px;
+    background-color: rgb(245, 223, 226);
+    border: 2px solid rgb(169, 159, 175);
+    cursor: pointer;
+}
+
+#reset:hover {
+    background-color: rgb(15, 1, 95);
+    color: white;
+}
+
+.img-box {
+    position: absolute;
+    top: 40%;
+    right: 15%;
+}
+
+.img-box img {
+    height: 0px;
+}
+
+@media screen and (max-width: 1200px) {
+    .img-box {
+        position: relative;
+        top: 0%;
+        right: 0%;
+        margin-top: 20px;
+        display: flex;
+        justify-content: center;
+    }
+}
