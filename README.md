@@ -1,1 +1,2 @@
-# tic-tac-toe.github.io
+# tic-tac-toe
+Project on HTML, CSS, JavaScript
